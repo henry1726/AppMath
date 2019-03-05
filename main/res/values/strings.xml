@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">AppMath</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Decimales -->
+    <string name="Titulo_1_Decimales">¿Qué es un número decimal?</string>
+    <string name="Descripcion_1_Decimales_corta">Definiciones del término "número decimal".</string>
+    <string name="Descripcion_1_Decimales_larga">Número decimal: Número que está compuesto por una parte entera,que puede ser cero, y por otra inferior a la unidad, separada de la parte entera por una coma (o un punto en algunos países americanos).
+    "1,73 es un número decimal"</string>
+
+    <!--Decimales  -->
+    <string name="Titulo_2_Decimales">Números decimales en la recta numérica.</string>
+    <string name="Descripcion_2_Decimales_corta">¿Dónde se encuentra el número decimal en la recta numérica?.</string>
+    <string name="Descripcion_2_Decimales_larga">1- Números decimales en la recta numérica
+
+    Para ubicar números decimales en la recta numérica debes seguir los siguiente pasos:
+
+    1- Ubicar los números en orden, de menor a mayor, manteniendo la misma distancia entre dos números consecutivos.
+    2- Para ubicar los décimos se divide la distancia entre dos números consecutivos en 10 partes iguales.
+    3- Para ubicar los centésimos se divide la distancia entre dos números consecutivos en 100 partes iguales.</string>
+
+    <!-- Decimales -->
+    <string name="Titulo_3_Decimales">¿Cómo hacer operaciones (suma y resta) con números decimales?</string>
+    <string name="Descripcion_3_Decimales_corta">Operaciones básicas con número decimales. </string>
+    <string name="Descripcion_3_Decimales_larga">Se colocan uno debajo de otro de manera que las comas estén en columna. Si es necesario se añaden ceros a la derecha para que tengan el mismo número de cifras.
+    Se suman o se restan como si fueran números naturales.
+    Se coloca la coma en el resultado debajo de la columna de las comas.</string>
+
+    <!-- Decimales -->
+    <string name="Titulo_4_Decimales">¿Cómo hacer operaciones (multiplicación y división) con números decimales?</string>
+    <string name="Descripcion_4_Decimales_corta">Operaciones básicas con número decimales.</string>
+    <string name="Descripcion_4_Decimales_larga">Se multiplican como si fueran números naturales.
+    En el resultado se colocan tantas cifras decimales como cifras decimales haya entre los dos factores.
+    Para multiplicar un número decimal por la unidad seguida de ceros se corre la coma hacia la derecha tantos lugares como ceros acompañen a la unidad, y si es necesario se añaden ceros.</string>
+
+    <!-- Fracciones -->
+    <string name="Titulo_1_Fracciones">¿Qué son las fracciones?</string>
+    <string name="Descripcion_1_Fracciones_corta">Definición básico del término "fracciones".</string>
+    <string name="Descripcion_1_Fracciones_larga">1.
+    Parte dividida o separada de un todo considerada por separado.
+    "fracciones de herencia; medía el tiempo de la quietud en fracciones de segundo"
+    2.
+    Número que expresa una cantidad determinada de porciones que se toman de un todo dividido en partes iguales; se representa con una barra oblicua u horizontal que separa la primera cantidad (el numerador) de la segunda (el denominador).
+    "un tercio (1/3) y cinco novenos (5/9) son fracciones"</string>
+
+    <!-- Fracciones -->
+    <string name="Titulo_2_Fracciones">Suma y resta de fracciones con denominador común.</string>
+    <string name="Descripcion_2_Fracciones_corta">Operaciones básicas con fracciones.</string>
+    <string name="Descripcion_2_Fracciones_larga">Suma y resta de fracciones
+1. Cuando tienen el mismo denominador
+Se suman o se restan los numeradores y se deja el mismo denominador. Después si podemos se simplifica.</string>
+
+    <!-- Fracciones -->
+    <string name="Titulo_3_Fracciones">Suma y resta de fracciones con distinto denominador.</string>
+    <string name="Descripcion_3_Fracciones_corta">Operaciones básicas con fracciones.</string>
+    <string name="Descripcion_3_Fracciones_larga">2. Cuando tienen distinto denominador
+Hay que reducir a común denominador.
+
+1º Se calcula el m.c.m. de los denominadores. Descomponemos en factores los denominadores y cogemos los factores comunes de mayor exponente y los no comunes.
+
+2º Dividimos el m.c.m. obtenido entre cada uno de los denominadores y lo que nos dé lo multiplicamos por el número que haya en el numerador.
+
+3º Ya tenemos todas las fracciones con el mismo denominador, sumamos o restamos los numeradores y dejamos el mismo denominador.
+
+4º Si podemos simplificamos.
+
+Para comparar fracciones de distinto denominador , primero debemos reducirlas a común denominador, luego ya las podemos ordenar y comparar.</string>
+
+    <!-- Geometría-->
+    <string name="Titulo_1_Geometria">Perímetro y área: Triángulo.</string>
+    <string name="Descripcion_1_Geometria_corta">Obtener perimétro y áres de un triángulo.</string>
+    <string name="Descripcion_1_Geometria_larga">1.- El perímetro de un triángulo es igual a la suma de sus tres lados.
+    2.- El área de un triángulo es igual a base por altura partido por 2.
+        La altura es la recta perpendicular trazada desde un vértice al lado opuesto (o su prolongación).</string>
+
+    <!-- Geometría-->
+    <string name="Titulo_2_Geometria">Perimétro y área: Cuadrado.</string>
+    <string name="Descripcion_2_Geometria_corta">Obtener perimétro y áres de un cuadrado.</string>
+    <string name="Descripcion_2_Geometria_larga">1.- PERÍMETRO: El perímetro de un cuadrado es cuatro veces el valor del lado.
+        P = 4 · a.
+    2.- ÁREA: El área de un cuadrado es igual al cuadrado de la longitud del lado.
+        A= a2.</string>
+
+    <!-- Geometría-->
+    <string name="Titulo_3_Geometria">Perímetro y área: Rentángulo.</string>
+    <string name="Descripcion_3_Geometria_corta">Obtener perimétro y áres de un rentángulo.</string>
+    <string name="Descripcion_3_Geometria_larga">1.- PERÍMETRO
+
+El rectángulo tiene los lados iguales dos a dos, por tanto:
+
+P = 2· a + 2· b
+    2.- ÁREA
+
+El área de un rectángulo es el producto de la longitud de los lados.
+
+A= a · b.</string>
+
+    <!-- Geometría-->
+    <string name="Titulo_4_Geometria">Perímetro y área: Círculo.</string>
+    <string name="Descripcion_4_Geometria_corta">Obtener perimétro y áres de un círculo.</string>
+    <string name="Descripcion_4_Geometria_larga">1.- Perímetro
+
+El perímetro de un circulo es la circunferencia y su valor es igual diámetro multiplicado por pi. Como el diámetro es igual a dos radios también se puede decir que la longitud de la circunferencia = p x 2r
+    2.- Área
+El área del círculo es igual al valor de su radio elevado al cuadrado multiplicado por pi = p x r2..</string>
+
+</resources>

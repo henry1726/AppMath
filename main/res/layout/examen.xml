@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Chronometer
+            android:id="@+id/cronometro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textSize="50dp" />
+
+        <Button
+            android:id="@+id/btnInicio"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Empezar" />
+
+        <Button
+            android:id="@+id/btnPause"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Pausar" />
+
+        <Button
+            android:id="@+id/btnTerminar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Terminar" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/examen1"
+            android:scaleType="fitCenter"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/idCheckE1"
+                android:layout_width="56dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="13dp"
+                android:text="A)" />
+
+            <CheckBox
+                android:id="@+id/idCheckE2"
+                android:layout_width="57dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="13dp"
+                android:text="B)" />
+
+            <Button
+                android:id="@+id/btnECheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Validar"
+                android:textSize="16dp"/>
+
+        </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/examen2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/resE1"
+                    android:layout_width="204dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Resultado"
+                    android:layout_marginLeft="10dp"
+                    android:inputType="text"/>
+
+                <Button
+                    android:id="@+id/btnResE1"
+                    android:layout_width="106dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:text="Validar" />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/examen3" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/resE2"
+                    android:layout_width="204dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Resultado"
+                    android:layout_marginLeft="10dp"
+                    android:inputType="text"/>
+
+                <Button
+                    android:id="@+id/btnResE2"
+                    android:layout_width="106dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:text="Validar" />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/examen4" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/resE3"
+                    android:layout_width="204dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Resultado"
+                    android:layout_marginLeft="10dp"
+                    android:inputType="text"/>
+
+                <Button
+                    android:id="@+id/btnResE3"
+                    android:layout_width="106dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:text="Validar" />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/examen5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/resE4"
+                    android:layout_width="204dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Resultado"
+                    android:layout_marginLeft="10dp"
+                    android:inputType="text"/>
+
+                <Button
+                    android:id="@+id/btnResE4"
+                    android:layout_width="106dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:text="Validar" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

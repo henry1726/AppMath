@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/reclycler"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:backgroundTint="@color/white"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/LayoutW"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <WebView
+            android:id="@+id/Web1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </WebView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:backgroundTint="@color/white">
+
+        <Button
+            android:id="@+id/idImagen1"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/tutoriales" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idNombre1"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fracciones"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idInfo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tutorial sencillo sobre problemas de fracciones."
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/idImagen"
+        android:layout_marginTop="11dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:backgroundTint="@color/white">
+
+        <Button
+            android:id="@+id/idImagen2"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/tutoriales" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idNombre2"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Decimales"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idInfo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tutorial sencillo sobre problemas de número geometría "
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/idImagen"
+        android:layout_marginTop="11dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/idImagen3"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/tutoriales" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idNombre3"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Geometría"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idInfo3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tutorial sencillo sobre problemas de número decimales "
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/idImagen"
+        android:layout_marginTop="11dp" />
+
+</LinearLayout>
